@@ -9,4 +9,4 @@ This document serves as a helpful manual and reference guide for Personal Identi
 * Transportation Worker Identification Credential (TWIC®)
 * Common Access Card (CAC)
 
-This manual is intended to be a practical manual for developers looking to interoperate with these credentials.  It is not intended as a guide for developers intending to issue those credentials.
+This manual is intended to be a practical manual for developers looking to interoperate with these credentials.  It is not intended as a guide for issuance.
