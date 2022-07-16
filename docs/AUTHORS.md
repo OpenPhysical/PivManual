@@ -1,6 +1,8 @@
 # This is the list of PivManual's significant contributors, and
 # a copyright disclaimer by each.
 
+## admin@mistial.dev
+~~~
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
@@ -28,3 +30,4 @@ dGlhbC5kZXYACgkQ4l7lGCnDgnsIwwD+MNaYzqKH5zKcqaByJTvdvYz6aYdpJINC
 aJYuajO1AXIA/jHQ8a1onMbvW65t9Zx4ByWWG9OhqSVWCkEJSlSwQNAF
 =fFdV
 -----END PGP SIGNATURE-----
+~~~
