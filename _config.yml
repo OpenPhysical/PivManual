@@ -1,4 +1,7 @@
 theme: jekyll-theme-leap-day
+remote_theme: pages-themes/leap-day@v0.2.0
 title: PIV (FIPS 201) Manual
 description: Non-authoritative supplemental documentation for NIST FIPS 201 (PIV) cards
 show_downloads: false
+include: 
+  - _pages
