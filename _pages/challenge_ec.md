@@ -2,7 +2,7 @@
 permalink: /piv/authentication/challenge-response/ec/
 ---
 
-## ECC Challenge Response Authentication
+## PIV ECC Challenge-Response Auth
 
 ### Background
 
