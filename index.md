@@ -1,7 +1,8 @@
 ---
 permalink: /
+title: PIV Manual
 ---
-## PIV Manual
+## Intro
 
 This document serves as a helpful manual and reference guide for Personal Identity Verification (PIV) and FIPS-201 compatible credentials, including:
 

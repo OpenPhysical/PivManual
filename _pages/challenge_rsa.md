@@ -1,8 +1,7 @@
 ---
 permalink: /piv/authentication/challenge-response/rsa/
+title: PIV RSA Challenge-Response Auth
 ---
-
-## PIV RSA Challenge-Response Auth
 
 ### Background
 

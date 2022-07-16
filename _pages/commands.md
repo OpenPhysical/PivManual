@@ -1,8 +1,7 @@
 ---
 permalink: /piv/commands/
+title: PIV Commands
 ---
-
-## PIV Commands
 
 ### General Authenticate
 
