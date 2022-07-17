@@ -25,7 +25,12 @@
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="/" class="button fork"><strong>Home</strong></a>
+        <div id="navbar">
+          <a href="/" class="button"><strong>Home</strong></a>
+          <a href="{{ "/piv/data-objects/" | relative-url }}" class="button">Data Objects</a>
+          <a href="{{ "/piv/commands/" | relative-url }}" class="button">Commands</a>
+          <a href="{{ "/piv/authentication/challenge-response/" | relative-url }}" class="button">Challenge-Response</a>
+        </div>
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>

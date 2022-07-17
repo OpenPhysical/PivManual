@@ -1,4 +1,4 @@
-all: run
+all: clean run
 
 clean: .PHONY
 	rm -rf _site/

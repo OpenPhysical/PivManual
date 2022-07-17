@@ -1,1 +1,1 @@
-Note: Example APDUs and responses use the sample challenge from [Secure Challenge Generation](challenge_generation.md) and keys from [PIV Test Keys](test_keys.md).
+Note: Example APDUs and responses use the sample challenge from [Secure Challenge Generation](/piv/authentication/challenge-response/challenge-generation/) and keys from [PIV Test Keys](/piv/authentication/test-keys/).
