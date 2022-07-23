@@ -1,3 +1,964 @@
+Public RSA Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xD1], encrypt, wrap, verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public RSA Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x2C1], encrypt, verify, verifyRecover, nonRepudiation
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public RSA Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public RSA Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xC0], verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 1]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 130 (0x82)
+	Native         : yes
+	ID             : 05
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 2]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 131 (0x83)
+	Native         : yes
+	ID             : 06
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 3]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 132 (0x84)
+	Native         : yes
+	ID             : 07
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 4]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 133 (0x85)
+	Native         : yes
+	ID             : 08
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 5]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 134 (0x86)
+	Native         : yes
+	ID             : 09
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 6]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 135 (0x87)
+	Native         : yes
+	ID             : 10
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 7]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 136 (0x88)
+	Native         : yes
+	ID             : 11
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 8]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 137 (0x89)
+	Native         : yes
+	ID             : 12
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 9]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 138 (0x8A)
+	Native         : yes
+	ID             : 13
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 10]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 139 (0x8B)
+	Native         : yes
+	ID             : 14
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 11]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 140 (0x8C)
+	Native         : yes
+	ID             : 15
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 12]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 141 (0x8D)
+	Native         : yes
+	ID             : 16
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 13]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 142 (0x8E)
+	Native         : yes
+	ID             : 17
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 14]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 143 (0x8F)
+	Native         : yes
+	ID             : 18
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 15]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 144 (0x90)
+	Native         : yes
+	ID             : 19
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 16]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 145 (0x91)
+	Native         : yes
+	ID             : 20
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 17]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 146 (0x92)
+	Native         : yes
+	ID             : 21
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 18]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 147 (0x93)
+	Native         : yes
+	ID             : 22
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 19]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 1024
+	Key ref        : 148 (0x94)
+	Native         : yes
+	ID             : 23
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 20]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 1024
+	Key ref        : 149 (0x95)
+	Native         : yes
+	ID             : 24
+	DirectValue    : <absent>
+
+PKCS#15 Card [Test Cardholder VIII]:
+	Version        : 0
+	Serial number  : d6501859ada92c1e5602e5a169db9545450692b086501843ed
+	Manufacturer ID: piv_II 
+	Flags          : 
+
+
+PIN [PIN]
+	Object Flags   : [0x01], private
+	Auth ID        : 02
+	ID             : 01
+	Flags          : [0x32], local, initialized, needs-padding
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 128 (0x80)
+	Type           : ascii-numeric
+
+PIN [PIV PUK]
+	Object Flags   : [0x01], private
+	ID             : 02
+	Flags          : [0xF2], local, initialized, needs-padding, unblockingPin, soPin
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 129 (0x81)
+	Type           : ascii-numeric
+
+Private RSA Key [PIV AUTH key]
+	Object Flags   : [0x01], private
+	Usage          : [0x2E], decrypt, sign, signRecover, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 01
+	MD:guid        : 0x'36303332303136363534303735313031313937353235383136343531313332300000000000000000'
+
+Private RSA Key [SIGN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x20E], decrypt, sign, signRecover, nonRepudiation
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 02
+	MD:guid        : 0x'36303332303136363534303735313032313937353235383136343531313332300000000000000000'
+
+Private RSA Key [KEY MAN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 03
+	MD:guid        : 0x'36303332303136363534303735313033313937353235383136343531313332300000000000000000'
+
+Private RSA Key [CARD AUTH key]
+	Object Flags   : [0x00]
+	Usage          : [0x0C], sign, signRecover
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	MD:guid        : 0x'36303332303136363534303735313034313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 1]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 130 (0x82)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 05
+	MD:guid        : 0x'36303332303136363534303735313035313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 2]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 131 (0x83)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 06
+	MD:guid        : 0x'36303332303136363534303735313036313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 3]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 132 (0x84)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 07
+	MD:guid        : 0x'36303332303136363534303735313037313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 4]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 133 (0x85)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 08
+	MD:guid        : 0x'36303332303136363534303735313038313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 5]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 134 (0x86)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 09
+	MD:guid        : 0x'36303332303136363534303735313039313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 6]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 135 (0x87)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 10
+	MD:guid        : 0x'36303332303136363534303735313130313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 7]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 136 (0x88)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 11
+	MD:guid        : 0x'36303332303136363534303735313131313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 8]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 137 (0x89)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 12
+	MD:guid        : 0x'36303332303136363534303735313132313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 9]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 138 (0x8A)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 13
+	MD:guid        : 0x'36303332303136363534303735313133313937353235383136343531313332300000000000000000'
+
+Private EC Key [Retired KEY MAN 10]
+	Object Flags   : [0x01], private
+	Usage          : [0x100], derive
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 256
+	Key ref        : 139 (0x8B)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 14
+	MD:guid        : 0x'36303332303136363534303735313134313937353235383136343531313332300000000000000000'
+
+Private EC Key [Retired KEY MAN 11]
+	Object Flags   : [0x01], private
+	Usage          : [0x100], derive
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 256
+	Key ref        : 140 (0x8C)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 15
+	MD:guid        : 0x'36303332303136363534303735313135313937353235383136343531313332300000000000000000'
+
+Private EC Key [Retired KEY MAN 12]
+	Object Flags   : [0x01], private
+	Usage          : [0x100], derive
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 384
+	Key ref        : 141 (0x8D)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 16
+	MD:guid        : 0x'36303332303136363534303735313136313937353235383136343531313332300000000000000000'
+
+Private EC Key [Retired KEY MAN 13]
+	Object Flags   : [0x01], private
+	Usage          : [0x100], derive
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 384
+	Key ref        : 142 (0x8E)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 17
+	MD:guid        : 0x'36303332303136363534303735313137313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 14]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 143 (0x8F)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 18
+	MD:guid        : 0x'36303332303136363534303735313138313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 15]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 144 (0x90)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 19
+	MD:guid        : 0x'36303332303136363534303735313139313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 16]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 145 (0x91)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 20
+	MD:guid        : 0x'36303332303136363534303735313230313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 17]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 146 (0x92)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 21
+	MD:guid        : 0x'36303332303136363534303735313231313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 18]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 147 (0x93)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 22
+	MD:guid        : 0x'36303332303136363534303735313232313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 19]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 1024
+	Key ref        : 148 (0x94)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 23
+	MD:guid        : 0x'36303332303136363534303735313233313937353235383136343531313332300000000000000000'
+
+Private RSA Key [Retired KEY MAN 20]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 1024
+	Key ref        : 149 (0x95)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 24
+	MD:guid        : 0x'36303332303136363534303735313234313937353235383136343531313332300000000000000000'
+
+Public RSA Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xD1], encrypt, wrap, verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public RSA Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x2C1], encrypt, verify, verifyRecover, nonRepudiation
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public RSA Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public RSA Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xC0], verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 1]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 130 (0x82)
+	Native         : yes
+	ID             : 05
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 2]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 131 (0x83)
+	Native         : yes
+	ID             : 06
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 3]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 132 (0x84)
+	Native         : yes
+	ID             : 07
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 4]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 133 (0x85)
+	Native         : yes
+	ID             : 08
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 5]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 134 (0x86)
+	Native         : yes
+	ID             : 09
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 6]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 135 (0x87)
+	Native         : yes
+	ID             : 10
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 7]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 136 (0x88)
+	Native         : yes
+	ID             : 11
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 8]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 137 (0x89)
+	Native         : yes
+	ID             : 12
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 9]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 138 (0x8A)
+	Native         : yes
+	ID             : 13
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 10]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 139 (0x8B)
+	Native         : yes
+	ID             : 14
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 11]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 140 (0x8C)
+	Native         : yes
+	ID             : 15
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 12]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 141 (0x8D)
+	Native         : yes
+	ID             : 16
+	DirectValue    : <absent>
+
+Public EC Key [Retired KEY MAN 13]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 142 (0x8E)
+	Native         : yes
+	ID             : 17
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 14]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 143 (0x8F)
+	Native         : yes
+	ID             : 18
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 15]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 144 (0x90)
+	Native         : yes
+	ID             : 19
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 16]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 145 (0x91)
+	Native         : yes
+	ID             : 20
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 17]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 146 (0x92)
+	Native         : yes
+	ID             : 21
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 18]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 147 (0x93)
+	Native         : yes
+	ID             : 22
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 19]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 1024
+	Key ref        : 148 (0x94)
+	Native         : yes
+	ID             : 23
+	DirectValue    : <absent>
+
+Public RSA Key [Retired KEY MAN 20]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 1024
+	Key ref        : 149 (0x95)
+	Native         : yes
+	ID             : 24
+	DirectValue    : <absent>
+
+X.509 Certificate [Certificate for PIV Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 01
+	Encoded serial : 02 14 3FE65E2F09EB9C7D704085D01DF0043EE8AF7400
+
+X.509 Certificate [Certificate for Digital Signature]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 02
+	Encoded serial : 02 14 4078F2093436DC9CA93C77B1D97B90A290ECC3AF
+
+X.509 Certificate [Certificate for Key Management]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 03
+	Encoded serial : 02 14 075992A531A8B050E2C5AF8238608C6B49FEA881
+
+X.509 Certificate [Certificate for Card Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 04
+	Encoded serial : 02 14 51B42F0A77430E56542264A62A887A84D489A9C6
+
+X.509 Certificate [Retired Certificate for Key Management 1]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 05
+	Encoded serial : 02 02 032C
+
+X.509 Certificate [Retired Certificate for Key Management 2]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 06
+	Encoded serial : 02 02 032D
+
+X.509 Certificate [Retired Certificate for Key Management 3]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 07
+	Encoded serial : 02 02 032E
+
+X.509 Certificate [Retired Certificate for Key Management 4]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 08
+	Encoded serial : 02 0F 5822B65E8360B23D893D45783721DC
+
+X.509 Certificate [Retired Certificate for Key Management 5]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 09
+	Encoded serial : 02 02 032C
+
+X.509 Certificate [Retired Certificate for Key Management 6]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 10
+	Encoded serial : 02 02 032D
+
+X.509 Certificate [Retired Certificate for Key Management 7]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 11
+	Encoded serial : 02 02 032E
+
+X.509 Certificate [Retired Certificate for Key Management 8]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 12
+	Encoded serial : 02 02 032F
+
+X.509 Certificate [Retired Certificate for Key Management 9]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 13
+	Encoded serial : 02 02 0330
+
+X.509 Certificate [Retired Certificate for Key Management 10]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 14
+	Encoded serial : 02 02 0331
+
+X.509 Certificate [Retired Certificate for Key Management 11]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 15
+	Encoded serial : 02 02 0332
+
+X.509 Certificate [Retired Certificate for Key Management 12]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 16
+	Encoded serial : 02 02 0333
+
+X.509 Certificate [Retired Certificate for Key Management 13]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 17
+	Encoded serial : 02 02 0334
+
+X.509 Certificate [Retired Certificate for Key Management 14]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 18
+	Encoded serial : 02 02 0329
+
+X.509 Certificate [Retired Certificate for Key Management 15]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 19
+	Encoded serial : 02 02 0327
+
+X.509 Certificate [Retired Certificate for Key Management 16]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 20
+	Encoded serial : 02 02 032B
+
+X.509 Certificate [Retired Certificate for Key Management 17]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 21
+	Encoded serial : 02 02 0328
+
+X.509 Certificate [Retired Certificate for Key Management 18]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 22
+	Encoded serial : 02 02 032A
+
+X.509 Certificate [Retired Certificate for Key Management 19]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 23
+	Encoded serial : 02 02 0326
+
+X.509 Certificate [Retired Certificate for Key Management 20]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 24
+	Encoded serial : 02 02 0325
+
 Data object 'Card Capability Container'
 	applicationName: Card Capability Container
 	applicationOID:  2.16.840.1.101.3.7.1.219.0

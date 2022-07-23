@@ -1,3 +1,184 @@
+Public EC Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x40], verify
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public EC Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x240], verify, nonRepudiation
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public EC Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public EC Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x40], verify
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+PKCS#15 Card [Test Cardholder V]:
+	Version        : 0
+	Serial number  : d650185a13422c2267930d9162589080501e649c86501843fc
+	Manufacturer ID: piv_II 
+	Flags          : 
+
+
+PIN [PIN]
+	Object Flags   : [0x01], private
+	Auth ID        : 02
+	ID             : 01
+	Flags          : [0x32], local, initialized, needs-padding
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 128 (0x80)
+	Type           : ascii-numeric
+
+PIN [PIV PUK]
+	Object Flags   : [0x01], private
+	ID             : 02
+	Flags          : [0xF2], local, initialized, needs-padding, unblockingPin, soPin
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 129 (0x81)
+	Type           : ascii-numeric
+
+Private EC Key [PIV AUTH key]
+	Object Flags   : [0x01], private
+	Usage          : [0x04], sign
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 256
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 01
+	MD:guid        : 0x'36303332303131393232383433373031323434313130323037333437313332300000000000000000'
+
+Private EC Key [SIGN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x204], sign, nonRepudiation
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 384
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 02
+	MD:guid        : 0x'36303332303131393232383433373032323434313130323037333437313332300000000000000000'
+
+Private EC Key [KEY MAN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x100], derive
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 384
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 03
+	MD:guid        : 0x'36303332303131393232383433373033323434313130323037333437313332300000000000000000'
+
+Private EC Key [CARD AUTH key]
+	Object Flags   : [0x00]
+	Usage          : [0x04], sign
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	FieldLength    : 256
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	MD:guid        : 0x'36303332303131393232383433373034323434313130323037333437313332300000000000000000'
+
+Public EC Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x40], verify
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public EC Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x240], verify, nonRepudiation
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public EC Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x100], derive
+	Access Flags   : [0x02], extract
+	FieldLength    : 384
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public EC Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x40], verify
+	Access Flags   : [0x02], extract
+	FieldLength    : 256
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+X.509 Certificate [Certificate for PIV Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 01
+	Encoded serial : 02 02 01F5
+
+X.509 Certificate [Certificate for Digital Signature]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 02
+	Encoded serial : 02 02 01F7
+
+X.509 Certificate [Certificate for Key Management]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 03
+	Encoded serial : 02 02 01F8
+
+X.509 Certificate [Certificate for Card Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 04
+	Encoded serial : 02 02 01F6
+
 Data object 'Card Capability Container'
 	applicationName: Card Capability Container
 	applicationOID:  2.16.840.1.101.3.7.1.219.0

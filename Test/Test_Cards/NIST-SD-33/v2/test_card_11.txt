@@ -1,3 +1,184 @@
+Public RSA Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xD1], encrypt, wrap, verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public RSA Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x2C1], encrypt, verify, verifyRecover, nonRepudiation
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public RSA Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public RSA Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xC0], verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+PKCS#15 Card [Test Cardholder]:
+	Version        : 0
+	Serial number  : d6501858289d6c2c92adcda16459a46927c9d45c86501843ed
+	Manufacturer ID: piv_II 
+	Flags          : 
+
+
+PIN [PIN]
+	Object Flags   : [0x01], private
+	Auth ID        : 02
+	ID             : 01
+	Flags          : [0x32], local, initialized, needs-padding
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 128 (0x80)
+	Type           : ascii-numeric
+
+PIN [PIV PUK]
+	Object Flags   : [0x01], private
+	ID             : 02
+	Flags          : [0xF2], local, initialized, needs-padding, unblockingPin, soPin
+	Length         : min_len:4, max_len:8, stored_len:8
+	Pad char       : 0xFF
+	Reference      : 129 (0x81)
+	Type           : ascii-numeric
+
+Private RSA Key [PIV AUTH key]
+	Object Flags   : [0x01], private
+	Usage          : [0x2E], decrypt, sign, signRecover, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 01
+	MD:guid        : 0x'36303332303130323935383334353031313236343634393739353837313332300000000000000000'
+
+Private RSA Key [SIGN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x20E], decrypt, sign, signRecover, nonRepudiation
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 02
+	MD:guid        : 0x'36303332303130323935383334353032313236343634393739353837313332300000000000000000'
+
+Private RSA Key [KEY MAN key]
+	Object Flags   : [0x01], private
+	Usage          : [0x22], decrypt, unwrap
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	Auth ID        : 01
+	ID             : 03
+	MD:guid        : 0x'36303332303130323935383334353033313236343634393739353837313332300000000000000000'
+
+Private RSA Key [CARD AUTH key]
+	Object Flags   : [0x00]
+	Usage          : [0x0C], sign, signRecover
+	Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+	Algo_refs      : 0
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	MD:guid        : 0x'36303332303130323935383334353034313236343634393739353837313332300000000000000000'
+
+Public RSA Key [PIV AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xD1], encrypt, wrap, verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 154 (0x9A)
+	Native         : yes
+	ID             : 01
+	DirectValue    : <absent>
+
+Public RSA Key [SIGN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x2C1], encrypt, verify, verifyRecover, nonRepudiation
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 156 (0x9C)
+	Native         : yes
+	ID             : 02
+	DirectValue    : <absent>
+
+Public RSA Key [KEY MAN pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0x11], encrypt, wrap
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 157 (0x9D)
+	Native         : yes
+	ID             : 03
+	DirectValue    : <absent>
+
+Public RSA Key [CARD AUTH pubkey]
+	Object Flags   : [0x00]
+	Usage          : [0xC0], verify, verifyRecover
+	Access Flags   : [0x02], extract
+	ModLength      : 2048
+	Key ref        : 158 (0x9E)
+	Native         : yes
+	ID             : 04
+	DirectValue    : <absent>
+
+X.509 Certificate [Certificate for PIV Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 01
+	Encoded serial : 02 01 65
+
+X.509 Certificate [Certificate for Digital Signature]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 02
+	Encoded serial : 02 01 67
+
+X.509 Certificate [Certificate for Key Management]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 03
+	Encoded serial : 02 01 68
+
+X.509 Certificate [Certificate for Card Authentication]
+	Object Flags   : [0x00]
+	Authority      : no
+	Path           : 
+	ID             : 04
+	Encoded serial : 02 01 66
+
 Data object 'Card Capability Container'
 	applicationName: Card Capability Container
 	applicationOID:  2.16.840.1.101.3.7.1.219.0
