@@ -10,3 +10,25 @@
     margin-bottom: auto;
     width: 650px;
 }
+
+nav {
+    text-align: left;
+}
+
+nav li.tag-h3 {
+    margin-left: 10px;
+}
+
+nav li.tag-h3:before {
+    content:"• ";
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+@media print, screen and (max-width: 1060px) {
+    section {
+        padding: 20px;
+    }
+}

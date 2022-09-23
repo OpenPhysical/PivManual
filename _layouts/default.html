@@ -6,8 +6,10 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/prism.css' | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/prism.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
@@ -27,9 +29,10 @@
 
         <div id="navbar">
           <a href="/" class="button"><strong>Home</strong></a>
-          <a href="{{ "/piv/data-objects/" | relative-url }}" class="button">Data Objects</a>
-          <a href="{{ "/piv/commands/" | relative-url }}" class="button">Commands</a>
-          <a href="{{ "/piv/authentication/challenge-response/" | relative-url }}" class="button">Challenge-Response</a>
+          <a href="{{ "/piv/fundamentals/" | relative-url }}" class="button">Fundamentals</a>
+          <a href="{{ "/piv/getting-started/" | relative-url }}" class="button">Getting Started</a>
+          <a href="{{ "/piv/operation/" | relative-url }}" class="button">Operation</a>
+          <a href="{{ "/piv/example-apdus/" | relative-url }}" class="button">Example APDUs</a>          
         </div>
         {% if site.show_downloads %}
           <div class="downloads">
@@ -54,7 +57,7 @@
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+        <p><small>Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
     </div>
   </body>
